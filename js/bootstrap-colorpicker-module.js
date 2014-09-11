@@ -461,7 +461,7 @@ angular.module('colorpicker.module', [])
             } else if (position === 'left') {
               positionValue = {
                 'top': positionOffset.top,
-                'left': positionOffset.left - 150
+                'left': positionOffset.left - 250
               };
             }
             return {
