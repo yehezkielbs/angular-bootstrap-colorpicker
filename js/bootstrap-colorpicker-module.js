@@ -517,6 +517,7 @@ angular.module('colorpicker.module', [])
 
           colorpickerTemplate.find('button').on('click', function () {
             hideColorpickerTemplate();
+            emitEvent('colorpicker-close-button-clicked');
           });
         }
       };
