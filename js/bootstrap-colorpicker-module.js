@@ -483,6 +483,7 @@ angular.module('colorpicker.module', [])
 
               // register global mousedown event to hide the colorpicker
               $document.on('mousedown', documentMousedownHandler);
+              $document.on('keydown', documentMousedownHandler);
             });
           } else {
             update();
